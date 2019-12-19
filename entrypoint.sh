@@ -1,6 +1,5 @@
 :q
 !/bin/sh -l
 
-echo " AlloHello $1"
-time=$(date)
+d:qime=$(date)
 echo ::set-output name=time::$time
