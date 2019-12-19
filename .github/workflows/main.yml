@@ -11,7 +11,7 @@ jobs:
     - uses: ./ # Usa uma ação no diretório raiz
     - name: Hello world action step
       id: hello
-      uses: jhpego/docker_action@v5
+      uses: jhpego/docker_action@master
       with:
         who-to-greet: 'Jorge Pego3'
     # Use a saída da etapa 'hello'
